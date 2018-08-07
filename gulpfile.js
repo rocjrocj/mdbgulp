@@ -90,7 +90,7 @@ gulp.task('connect-sync', function() {
     connect.server({}, function (){
         browserSync.init({
             baseDir: "./dist",
-            proxy: '127.0.0.1:8000/dist'
+            proxy: '127.0.0.1:8000/dist/index.php'
         });
     });
 

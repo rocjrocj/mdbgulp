@@ -141,7 +141,7 @@ $projects = json_decode($data);
             <div class="row py-5">
                 <!--Grid column-->
                 <div class="col-md-12 text-centerz" id="portfolio">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumzzz.</p>
 
 
 
@@ -155,7 +155,7 @@ $projects = json_decode($data);
                         foreach ($projects as $project) :
                             $i++;
 
-                            if ($i % 4 == 0) :
+                            if ($i === 4) :
 
                             ?>
                     <!-- Card deck -->
@@ -194,7 +194,10 @@ $projects = json_decode($data);
 
 
 
-                            <?php if ($i % 4 == 0) : ?>
+                            <?php if ($i === 4) :
+
+                          $i = 0;
+                          ?>
                             </div>
                             <!-- Card deck -->
                             <?php endif; ?>
