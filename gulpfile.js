@@ -89,8 +89,7 @@ gulp.task('img-compression', function() {
 gulp.task('connect-sync', function() {
     connect.server({}, function (){
         browserSync.init({
-            baseDir: "./dist",
-            proxy: '127.0.0.1:8000/dist/index.php'
+            proxy: 'http://mdbgulp/index.php'
         });
     });
 
