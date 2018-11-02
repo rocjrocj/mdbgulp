@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Muli Extra Light";
+  src: local(Muli Extra Light), url("../font/muli/Muli-ExtraLight.ttf") format("truetype");
+  font-weight: 200; }
+@font-face {
+  font-family: "Muli Extra Light Italic";
+  src: local(Muli Extra Light Italic), url("../font/muli/Muli-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200; }
+@font-face {
+  font-family: "Muli Light";
+  src: local(Muli Light), url("../font/muli/Muli-Light.ttf") format("truetype");
+  font-weight: 300; }
+@font-face {
+  font-family: "Muli Light Italic";
+  src: local(Muli Light Italic), url("../font/muli/Muli-LightItalic.ttf") format("truetype");
+  font-weight: 300; }
+@font-face {
+  font-family: "Muli";
+  src: local(Muli Regular), url("../font/muli/Muli-Regular.ttf") format("truetype");
+  font-weight: 400; }
+@font-face {
+  font-family: "Muli Italic";
+  src: local(Muli Regular Italic), url("../font/muli/Muli-Italic.ttf") format("truetype");
+  font-weight: 400; }
+@font-face {
+  font-family: "Muli Semi-Bold";
+  src: url("../font/muli/Muli-SemiBold.ttf") format("truetype");
+  font-weight: 600; }
+@font-face {
+  font-family: "Muli Semi-Bold Italic";
+  src: url("../font/muli/Muli-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600; }
+@font-face {
+  font-family: "Muli Bold";
+  src: url("../font/muli/Muli-Bold.ttf") format("truetype");
+  font-weight: 700; }
+@font-face {
+  font-family: "Muli Bold Italic";
+  src: url("../font/muli/Muli-BoldItalic.ttf") format("truetype");
+  font-weight: 700; }
+@font-face {
+  font-family: "Muli Extra Bold";
+  src: url("../font/muli/Muli-ExtraBold.ttf") format("truetype");
+  font-weight: 800; }
+@font-face {
+  font-family: "Muli Extra Bold Italic";
+  src: url("../font/muli/Muli-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 900; }
+@font-face {
+  font-family: "Muli Black";
+  src: url("../font/muli/Muli-Black.ttf") format("truetype");
+  font-weight: 900; }
+@font-face {
+  font-family: "Muli Black Italic";
+  src: url("../font/muli/Muli-BlackItalic.ttf") format("truetype");
+  font-weight: 800; }
+body {
+  /*font-family: "Muli", sans-serif;*/ }
+
+.home-rj {
+  /*font-family: "Muli Black";*/
+  /*font-size: 96px;*/
+  /*font-weight: 900;*/ }
+
+.vh-100 {
+  height: 100vh; }
+
+.flex-centerz {
+  display: flex;
+  align-items: center;
+  height: 100%; }
+
+.letterspace10 {
+  letter-spacing: 9px; }
+
+.line-height34 {
+  line-height: 34px; }
+
+.op50 {
+  opacity: 0.5; }
+
+.page-footer {
+  background-color: #091933; }
+
+/*# sourceMappingURL=style.css.map */

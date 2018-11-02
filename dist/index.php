@@ -78,11 +78,11 @@ $projects = json_decode($data);
         }
         }
 
-        .rgba-gradient {
+        /*.rgba-gradient {
             background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
             background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
             background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
-        }
+        }*/
     </style>
 
 
@@ -102,13 +102,14 @@ $projects = json_decode($data);
                 <!--<source src="vid/483291049-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/845840292-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/598602128-640_adpp_is.mp4" type="video/mp4">-->
-                <source src="vid/541903908-640_adpp_is.mp4" type="video/mp4">
+                        <!--<source src="vid/541903908-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/473290089-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/610205932-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/472714963-640_adpp_is.mp4" type="video/mp4">-->
+                <source src="vid/HomepageVideo.mp4" type="video/mp4">
             </video>
             <!-- Mask & flexbox options-->
-            <div class="mask rgba-gradient d-flex justify-content-center align-items-center rgba-black-light">
+            <div class="mask rgba-gradientz d-flex justify-content-center align-items-center rgba-black-strong">
                 <!-- Content -->
                 <div class="container px-md-3 px-sm-0">
                     <!--Grid row-->
@@ -137,7 +138,7 @@ $projects = json_decode($data);
     </header>
 
     <!--Main Layout-->
-    <main>
+    <main class="warning-color-dark">
 
 
 
@@ -151,16 +152,16 @@ $projects = json_decode($data);
             <div class="row py-5">
                 <!--Grid column-->
                 <div class="col-md-12 text-centerz" id="portfolio">
-                    <h1>Portfolio of Work</h1>
+                    <h1 class="white-textz text-warningz white-text op50z wow fadeInUpz fadeIn" data-wow-delay="0.3s" data-wow-duration="4.0s">Portfolio of Work</h1>
                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumzzz.</p> -->
 
 
 
                     <!--Card-->
-                    <div class="card my-5">
+                    <div class="card my-5 wow fadeInUpz fadeIn z-depth-5z hoverablez" data-wow-delay="0.4s" data-wow-duration="7.0s">
 
                         <!--Card image-->
-                        <div class="viewz overlayz">
+                        <div class="view overlay slideInUpz zoom">
                             <img src="img/bourdain-1.jpg" style="width: 100%;" class="img-fluid" alt="">
                             <a href="#">
                                 <div class="maskz rgba-white-slightz"></div>
@@ -170,12 +171,12 @@ $projects = json_decode($data);
                         <!--Card content-->
                         <div class="card-body text-center mb-3">
                             <!--Title-->
-                            <h3 class="card-title mt-2 pb-4"><strong>Featured Project:</strong> Anthony Bourdain No Reservations</h3>
+                            <h3 class="card-title mt-2 pb-4"><strong>Featured Project:</strong> Anthony Bourdain &mdash; No Reservations</h3>
                             <!--Text-->
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                                 content.
                             </p>
-                            <a href="#" class="btn purple-gradient btn-rounded">Button</a>
+                            <a href="#" class="btn btn-primary purple-gradientz btn-roundedz">Button</a>
                         </div>
 
                     </div>
@@ -209,12 +210,12 @@ $projects = json_decode($data);
                             <?php /*endif; */?>
 
                             <!-- Card -->
-                            <div class="card mb-4 wow <?php if ($i === 1): ?>fadeIn<?php elseif ($i === 2): ?>fadeIn<?php elseif ($i === 3): ?>fadeIn<?php endif; ?>" data-wow-duration="9.0s">
+                            <div class="card mb-4 wow fadeIn z-depth-5 hoverable"<?php if ($i === 1): ?> data-wow-delay="0.2s" data-wow-duration="3.0s"><?php elseif ($i === 2): ?> data-wow-delay="0.3s" data-wow-duration="4.0s"><?php elseif ($i === 3): ?> data-wow-delay="0.4s" data-wow-duration="5.0s"><?php endif; ?>
 
 
 
                                 <!--Card image-->
-                                <div class="view overlay">
+                                <div class="view overlay zoom">
                                     <img class="card-img-top" src="http://dev-rjmdb.pantheonsite.io/<?php echo $project->field_project_image_large; ?>" alt="Card image cap">
                                     <a href="#!">
                                         <div class="mask rgba-white-slight"></div>
@@ -227,11 +228,12 @@ $projects = json_decode($data);
                                     <!--Title-->
                                     <h4 class="card-title"><?php echo $project->field_project_name; ?></h4>
                                     <!--Text-->
+                                    <p class="card-text text"> <?php echo $project->field_project_description; ?></p>
                                     <p class="card-text text"><strong>Client:</strong> <?php echo $project->field_client; ?></p>
-                                    <!--<h3 class="card-text text"><strong>Produced with:</strong><?php echo $project->field_produced_with; ?></h3>
-                                    <p class="card-text text"><?php /*echo $project->field_project_description; */?></p>-->
+                                    <p class="card-text text"><strong>Produced with:</strong> <?php echo $project->field_produced_with; ?></p>
+
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                    <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+                                    <div class="text-center pt-3"><button type="button" class="btn btn-primary btn-md">Read more</button></div>
 
                                 </div>
 
@@ -525,6 +527,78 @@ $projects = json_decode($data);
         </div>
         <!--Grid row-->
     </div>
+
+
+
+    <footer class="page-footer text-center font-small mt-4 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+
+        <!--Call to action-->
+        <div class="pt-4">
+            <a class="btn btn-outline-white waves-effect waves-light" href="https://mdbootstrap.com/getting-started/" target="_blank" role="button">Download MDB
+                <i class="fa fa-download ml-2"></i>
+            </a>
+            <a class="btn btn-outline-white waves-effect waves-light" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank" role="button">Start free tutorial
+                <i class="fa fa-graduation-cap ml-2"></i>
+            </a>
+        </div>
+        <!--/.Call to action-->
+
+        <div>RocJohnson.com</div>
+        <div class="d-flex justify-content-center font-small text-uppercase">
+            <div>
+                <i class="fa fa-envelope" aria-hidden="true"></i> roc@rocjohnson.com
+            </div>
+            <div>
+                <i class="fa fa-phone" aria-hidden="true"></i> 901-628-7763
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <!-- Social icons -->
+        <div class="pb-4">
+            <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+                <i class="fa fa-facebook mr-3"></i>
+            </a>
+
+            <a href="https://twitter.com/MDBootstrap" target="_blank">
+                <i class="fa fa-twitter mr-3"></i>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+                <i class="fa fa-youtube mr-3"></i>
+            </a>
+
+            <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+                <i class="fa fa-google-plus mr-3"></i>
+            </a>
+
+            <a href="https://dribbble.com/mdbootstrap" target="_blank">
+                <i class="fa fa-dribbble mr-3"></i>
+            </a>
+
+            <a href="https://pinterest.com/mdbootstrap" target="_blank">
+                <i class="fa fa-pinterest mr-3"></i>
+            </a>
+
+            <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+                <i class="fa fa-github mr-3"></i>
+            </a>
+
+            <a href="http://codepen.io/mdbootstrap/" target="_blank">
+                <i class="fa fa-codepen mr-3"></i>
+            </a>
+        </div>
+        <!-- Social icons -->
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3">
+            © 2018 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank"> MDBootstrap.com </a>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
 
 
 
