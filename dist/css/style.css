@@ -82,4 +82,7 @@ body {
 .page-footer {
   background-color: #091933; }
 
+.card .view {
+  height: unset; }
+
 /*# sourceMappingURL=style.css.map */
