@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const php = require('gulp-connect-php');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const cssmin = require('gulp-cssmin');
@@ -121,17 +122,22 @@ gulp.task('img-compression', function() {
     .pipe(gulp.dest('./dist/img'));
 });
 
+gulp.task('php', function(){
+    php.server({base:'./dist', port:8010, keepalive:true});
+});
+
 // Live Server
-gulp.task('live-server', function() {
+gulp.task('live-server',['php'], function() {
   browserSync.init({
     server: {
       baseDir: "./dist",
-      directory: true
+      //directory: true
     },
     notify: false
   });
 
   gulp.watch("**/*", {cwd: './dist/'}, browserSync.reload);
+  gulp.watch('./*.php', browserSync.reload);
 });
 
 // Watch on everything

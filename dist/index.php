@@ -97,7 +97,7 @@ $projects = json_decode($data);
     <header>
         <!-- Full Page Intro -->
         <div class="view">
-            <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay muted loop>
+            <video class="video-intro" poster="" playsinline autoplay muted loop>
                 <!--<source src="vid/544225670-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/483291049-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/845840292-640_adpp_is.mp4" type="video/mp4">-->
@@ -138,9 +138,14 @@ $projects = json_decode($data);
     </header>
 
 
-
-
-
+    <div class="the-story">
+        <h2>The Story</h2>
+        <div class="container body">
+            <h3>The Story</h3>
+            <p>The Elevator Pitch &mdash; I am a web and marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
+            <p>The Plain English Translation &mdash; I have been designing and developing websites for a long time. I have been delivering "pixel-perfect" code for agencies and creatives since before "pixel-perfect" was a phrase. I wrote my first JavaScript "rollover" with about 1000 lines of js in 1996. I have been obsessed with animation and interactivity on the web ever since I saw the first version of Flash (originally called Future Splash) in 1997. Along the way I taught myself, along with the help of a few great mentors, server-side scripting, backend development and database design and development.</p>
+        </div>
+    </div>
 
 
 
@@ -150,7 +155,13 @@ $projects = json_decode($data);
         <!-- Section heading -->
         <h2 class="h1-responsive font-weight-bold text-centerz my-5z">The Story</h2>
         <!-- Section description -->
-        <p class="grey-text text-centerz w-responsivez mx-autoz mb-5">I am a web and marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
+        <p>The Elevator Pitch &mdash; I am a web and marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
+        <p>The Plain English Translation &mdash; I have been designing and developing websites for a long time. I have been delivering "pixel-perfect" code for agencies and creatives since before "pixel-perfect" was a phrase. I wrote my first JavaScript "rollover" with about 1000 lines of js in 1996. I have been obsessed with animation and interactivity on the web ever since I saw the first version of Flash (originally called Future Splash) in 1997. Along the way I taught myself, along with the help of a few great mentors, server-side scripting, backend development and database design and development.</p>
+
+        <div class="d-flex justify-content-between">
+            <p class="mr-5 flex-fill">The Elevator Pitch &mdash; I am a web and marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
+            <p class="ml-5 flex-fill">The Plain English Translation &mdash; I have been designing and developing websites for a long time. I have been delivering "pixel-perfect" code for agencies and creatives since before "pixel-perfect" was a phrase. I wrote my first JavaScript "rollover" with about 1000 lines of js in 1996. I have been obsessed with animation and interactivity on the web ever since I saw the first version of Flash (originally called Future Splash) in 1997. Along the way I taught myself, along with the help of a few great mentors, server-side scripting, backend development and database design and development.</p>
+        </div>
 
         <!-- Grid row -->
         <div class="row">

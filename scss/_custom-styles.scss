@@ -134,3 +134,31 @@ body {
 .card .view {
   height: unset;
 }
+
+.the-story {
+  position: relative;
+  overflow: hidden;
+  h2 {
+    font-size: 240px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    line-height: 260px;
+    position: absolute;
+    top: -42px;
+    left: -8px;
+    opacity: 0.05;
+    z-index: 1;
+  }
+  /*p {
+    width: 300px;
+  }*/
+  .body {
+    position: relative;
+    /*background-color: #fff;*/
+    margin-top: 50px;
+    padding: 24px;
+    z-index: 99;
+    /*opacity: 0.8;*/
+  }
+}
