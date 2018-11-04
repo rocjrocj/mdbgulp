@@ -16264,7 +16264,8 @@ section.team-section .avatar img {
   font-weight: 800; }
 
 body {
-  /*font-family: "Muli", sans-serif;*/ }
+  /*font-family: "Muli", sans-serif;*/
+  line-height: 28px; }
 
 .home-rj {
   /*font-family: "Muli Black";*/
@@ -16297,8 +16298,10 @@ body {
 .page-footer {
   background-color: #091933; }
 
-.card .view {
-  height: unset; }
+.card {
+  line-height: 24px; }
+  .card .view {
+    height: unset; }
 
 .the-story {
   position: relative;
@@ -16324,3 +16327,8 @@ body {
     padding: 24px;
     z-index: 99;
     /*opacity: 0.8;*/ }
+
+.rgba-blue-light {
+  /*background-color: rgba(56,111,193,.8) !important;
+  background-color: rgba(31,64,116,.8) !important;*/
+  background-color: rgba(19, 44, 82, 0.8) !important; }

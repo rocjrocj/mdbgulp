@@ -109,7 +109,7 @@ $projects = json_decode($data);
                 <source src="vid/HomepageVideo.mp4" type="video/mp4">
             </video>
             <!-- Mask & flexbox options-->
-            <div class="mask rgba-gradientz d-flex justify-content-center align-items-center rgba-black-strong">
+            <div class="mask rgba-gradientz d-flex justify-content-center align-items-center rgba-blue-light">
                 <!-- Content -->
                 <div class="container px-md-3 px-sm-0">
                     <!--Grid row-->
@@ -119,8 +119,8 @@ $projects = json_decode($data);
                             <h1 class="display-3z font-weight-boldz white-text mb-0 pt-md-5 pt-5 wow fadeIn text-uppercase letterspace10 home-rj orange-textz darken-1z" data-wow-delay="0.3s" data-wow-duration="5.0s">RocJohnson.com</h1>
                             <hr class="hr-light my-4 w-100 wow fadeIn text-left" data-wow-delay="0.4s" data-wow-duration="4.0s">
                             <h4 class="subtext-header mt-2 mb-4 wow fadeIn line-height34" data-wow-delay="0.5s" data-wow-duration="3.0s">A Web professional with 20+ years' experience delivering strategic and innovative digital solutions</h4>
-                            <a href="#portfolio" class="btn btn-rounded btn-outline-white wow fadeIn" data-wow-delay="0.6s" data-wow-duration="2.0s">
-                                Interactive CV &nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            <a href="#about" class="btn btn-rounded btn-outline-white wow fadeIn" data-wow-delay="0.6s" data-wow-duration="2.0s">
+                                About Me &nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i>
                             </a>
                             <a href="#portfolio" class="btn btn-rounded btn-outline-white wow fadeIn" data-wow-delay="0.6s" data-wow-duration="2.0s">
                                 Portfolio of Work &nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -138,53 +138,49 @@ $projects = json_decode($data);
     </header>
 
 
-    <div class="the-story">
+    <!--<div class="the-story">
         <h2>The Story</h2>
         <div class="container body">
             <h3>The Story</h3>
             <p>The Elevator Pitch &mdash; I am a web and marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
             <p>The Plain English Translation &mdash; I have been designing and developing websites for a long time. I have been delivering "pixel-perfect" code for agencies and creatives since before "pixel-perfect" was a phrase. I wrote my first JavaScript "rollover" with about 1000 lines of js in 1996. I have been obsessed with animation and interactivity on the web ever since I saw the first version of Flash (originally called Future Splash) in 1997. Along the way I taught myself, along with the help of a few great mentors, server-side scripting, backend development and database design and development.</p>
         </div>
-    </div>
+    </div>-->
 
 
 
     <!-- Projects section v.3 -->
-    <section class="my-5 container">
+    <section class="my-5 container" id="about">
 
         <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold text-centerz my-5z">The Story</h2>
+        <h2 class="h1-responsive font-weight-bold text-centerz mb-4">My Story</h2>
         <!-- Section description -->
-        <p>The Elevator Pitch &mdash; I am a web and marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
-        <p>The Plain English Translation &mdash; I have been designing and developing websites for a long time. I have been delivering "pixel-perfect" code for agencies and creatives since before "pixel-perfect" was a phrase. I wrote my first JavaScript "rollover" with about 1000 lines of js in 1996. I have been obsessed with animation and interactivity on the web ever since I saw the first version of Flash (originally called Future Splash) in 1997. Along the way I taught myself, along with the help of a few great mentors, server-side scripting, backend development and database design and development.</p>
-
-        <div class="d-flex justify-content-between">
-            <p class="mr-5 flex-fill">The Elevator Pitch &mdash; I am a web and marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
-            <p class="ml-5 flex-fill">The Plain English Translation &mdash; I have been designing and developing websites for a long time. I have been delivering "pixel-perfect" code for agencies and creatives since before "pixel-perfect" was a phrase. I wrote my first JavaScript "rollover" with about 1000 lines of js in 1996. I have been obsessed with animation and interactivity on the web ever since I saw the first version of Flash (originally called Future Splash) in 1997. Along the way I taught myself, along with the help of a few great mentors, server-side scripting, backend development and database design and development.</p>
-        </div>
+        <p class="mb-4"><strong>The Elevator Pitch</strong> &mdash; I am a web and marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
+        <p class="mb-4"><strong>The Plain English Translation</strong> &mdash; I have been designing and developing websites for a long time. I have been delivering "pixel-perfect" code for agencies and creatives since before "pixel-perfect" was a phrase. I wrote my first JavaScript "rollover" with about 1000 lines of js in 1996. I have been obsessed with animation and interactivity on the web ever since I saw the first version of Flash (originally called Future Splash) in 1997. Along the way I taught myself, along with the help of a few great mentors, server-side scripting, backend development and database design and development.</p>
 
         <!-- Grid row -->
         <div class="row">
 
             <!-- Grid column -->
-            <div class="col-lg-5 mb-lg-0 mb-5">
+            <div class="col-lg-5 mb-lg-0 my-5">
                 <!--Image-->
-                <img src="https://mdbootstrap.com/img/Photos/Others/images/83.jpg" alt="Sample project image" class="img-fluid rounded z-depth-1">
+                <img src="img/logo-v2-blue.png" alt="Sample project image" class="img-fluid roundedz z-depth-1z p-5">
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-lg-7">
+            <div class="col-lg-7 mt-4">
 
                 <!-- Grid row -->
-                <div class="row mb-3">
+                <div class="row mb-4">
                     <div class="col-md-1 col-2">
-                        <i class="fa fa-book fa-2x cyan-text"></i>
+                        <i class="fa fa-cogs fa-2x cyan-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="font-weight-bold mb-3">Education</h5>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
-                            aperiam minima elit assumenda voluptate velit.</p>
+                        <h5 class="font-weight-bold mb-4">Current &mdash; Manager, Web Engineering, <a href="https://healthgrades.com" target="_blank">Healthgrades.com</a></h5>
+                        <p class="grey-textz mb-4">Since March of 2017, I have been leading a team of Web Engineers and Front-End Developers responsible for Healthgrades product development on the EPE and HGMD squads as well as delivering award-winning Enterprise and Marketing Campaign Sites for the nation's largest healthcare systems.</p>
+
+
                     </div>
                 </div>
                 <!-- Grid row -->
@@ -195,15 +191,25 @@ $projects = json_decode($data);
                         <i class="fa fa-code fa-2x red-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="font-weight-bold mb-3">Technology</h5>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
-                            aperiam minima elit assumenda voluptate velit.</p>
+                        <h5 class="font-weight-bold mb-3">Technology at Healthgrades</h5>
+                        <p class="grey-textz">Healthgrades leverages a mix of technology stacks to back its many products and websites &mdash;</p>
+                        <ul>
+                            <li>EPE and Client Delivery tech stacks include Drupal 8, PHP, MySQL, jQuery and Vue.js on Pantheon</li>
+                            <li>HGMD tech stack includes .NET, Angular, React and Bootstrap on AWS</li>
+                        </ul>
+                        <!--<p>Other development tools and processes include &mdash;</p>
+                        <ul>
+                            <li>Git, Composer, Gulp, Drush, Lando and Webpack</li>
+                            <li>Particle and Pattern Lab</li>
+                            <li>Scrum, Kanban and Agile development practices</li>
+                            <li>Jira and Confluence</li>
+                        </ul>-->
                     </div>
                 </div>
                 <!-- Grid row -->
 
                 <!-- Grid row -->
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-md-1 col-2">
                         <i class="fa fa-money fa-2x deep-purple-text"></i>
                     </div>
@@ -212,7 +218,7 @@ $projects = json_decode($data);
                         <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores
                             nam, aperiam minima elit assumenda voluptate velit.</p>
                     </div>
-                </div>
+                </div>-->
                 <!-- Grid row -->
 
             </div>
@@ -224,22 +230,24 @@ $projects = json_decode($data);
         <hr class="my-5">
 
         <!-- Grid row -->
-        <div class="row">
+        <div class="row mt-5">
 
             <!-- Grid column -->
-            <div class="col-lg-7">
+            <div class="col-lg-7 mt-4z">
 
                 <!-- Grid row -->
-                <div class="row mb-3">
+                <div class="row mt-4z">
                     <div class="col-md-1 col-2">
-                        <i class="fa fa-bar-chart fa-2x indigo-text"></i>
+                        <i class="fa fa-history fa-2x indigo-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="font-weight-bold mb-3">Marketing</h5>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
-                            aperiam minima elit assumenda voluptate velit.</p>
+                        <h5 class="font-weight-bold mb-4">Previous Experience &mdash;</h5>
+                        <h6>Director, Web Services, <a href="https://methodisthealth.org" target="_blank">Methodist Le Bonheur Healthcare</a></h6>
+                        <p class="grey-textz">Served as Director of Web Services for a large healthcare system to develop Web, Mobile/Tablet and Social Media Strategies for organization-wide web initiatives.</p>
+                        <h6><a href="http://rocjohnson.com" target="_blank">RocJohnson.com</a></h6>
+                        <p class="grey-textz mb-4">Served as Principal with expertise in web strategy, mobile/tablet strategy, social media strategy, website design and development, mobile app design and development, mobile web design and development, responsive web design, mobile first, content strategy, UI/UX, SEO, SEM and team building.</p>
                     </div>
-                </div>
+                </div>s
                 <!-- Grid row -->
 
                 <!-- Grid row -->
@@ -248,8 +256,8 @@ $projects = json_decode($data);
                         <i class="fa fa-music fa-2x pink-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="font-weight-bold mb-3">Entertainment</h5>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
+                        <h5 class="font-weight-bold mb-4">Entertainment</h5>
+                        <p class="grey-textz mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
                             aperiam minima elit assumenda voluptate velit.</p>
                     </div>
                 </div>
@@ -261,7 +269,7 @@ $projects = json_decode($data);
                         <i class="fa fa-smile-o fa-2x blue-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="font-weight-bold mb-3">Communication</h5>
+                        <h5 class="font-weight-bold mb-4">Communication</h5>
                         <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores
                             nam, aperiam minima elit assumenda voluptate velit.</p>
                     </div>
@@ -274,7 +282,7 @@ $projects = json_decode($data);
             <!-- Grid column -->
             <div class="col-lg-5">
                 <!--Image-->
-                <img src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg" alt="Sample project image" class="img-fluid rounded z-depth-1">
+                <img src="img/logos.jpg" alt="Sample project image" class="img-fluid roundedz z-depth-1z">
             </div>
             <!-- Grid column -->
 
@@ -311,7 +319,7 @@ $projects = json_decode($data);
 
 
                     <!--Card-->
-                    <div class="card my-5 wow fadeInUpz fadeIn z-depth-5z hoverablez" data-wow-delay="0.4s" data-wow-duration="7.0s">
+                    <div class="card my-5 wow fadeInUpz fadeIn z-depth-5z hoverable" data-wow-delay="0.4s" data-wow-duration="7.0s">
 
                         <!--Card image-->
                         <div class="view overlay slideInUpz zoom">
@@ -386,7 +394,7 @@ $projects = json_decode($data);
                                     <p class="card-text text"><strong>Produced with:</strong> <?php echo $project->field_produced_with; ?></p>
 
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                    <div class="text-center pt-3"><button type="button" class="btn btn-primary btn-md">Read more</button></div>
+                                    <div class="text-centerz pt-3z"><button type="button" class="btn btn-primary btn-md">Read more</button></div>
 
                                 </div>
 
