@@ -153,7 +153,7 @@ $projects = json_decode($data);
     <section class="my-5 container" id="about">
 
         <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold text-centerz mb-4">My Story</h2>
+        <h2 class="h1-responsive font-weight-boldz text-centerz mb-4">My Story</h2>
         <!-- Section description -->
         <p class="mb-4"><strong>The Elevator Pitch</strong> &mdash; I am a web and marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
         <p class="mb-4"><strong>The Plain English Translation</strong> &mdash; I have been designing and developing websites for a long time. I have been delivering "pixel-perfect" code for agencies and creatives since before "pixel-perfect" was a phrase. I wrote my first JavaScript "rollover" with about 1000 lines of js in 1996. I have been obsessed with animation and interactivity on the web ever since I saw the first version of Flash (originally called Future Splash) in 1997. Along the way I taught myself, along with the help of a few great mentors, server-side scripting, backend development and database design and development.</p>
@@ -177,7 +177,7 @@ $projects = json_decode($data);
                         <i class="fa fa-cogs fa-2x cyan-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="font-weight-bold mb-4">Current &mdash; Manager, Web Engineering, <a href="https://healthgrades.com" target="_blank">Healthgrades.com</a></h5>
+                        <h5 class="font-weight-boldz mb-4">Current &mdash; Manager, Web Engineering, <a href="https://healthgrades.com" target="_blank">Healthgrades.com</a></h5>
                         <p class="grey-textz mb-4">Since March of 2017, I have been leading a team of Web Engineers and Front-End Developers responsible for Healthgrades product development on the EPE and HGMD squads as well as delivering award-winning Enterprise and Marketing Campaign Sites for the nation's largest healthcare systems.</p>
 
 
@@ -191,7 +191,7 @@ $projects = json_decode($data);
                         <i class="fa fa-code fa-2x red-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="font-weight-bold mb-3">Technology at Healthgrades</h5>
+                        <h5 class="font-weight-boldz mb-3">Technology at Healthgrades</h5>
                         <p class="grey-textz">Healthgrades leverages a mix of technology stacks to back its many products and websites &mdash;</p>
                         <ul>
                             <li>EPE and Client Delivery tech stacks include Drupal 8, PHP, MySQL, jQuery and Vue.js on Pantheon</li>
@@ -241,7 +241,7 @@ $projects = json_decode($data);
                         <i class="fa fa-history fa-2x indigo-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="font-weight-bold mb-4">Previous Experience &mdash;</h5>
+                        <h5 class="font-weight-boldz mb-4">Previous Experience &mdash;</h5>
                         <h6>Director, Web Services, <a href="https://methodisthealth.org" target="_blank">Methodist Le Bonheur Healthcare</a></h6>
                         <p class="grey-textz">Served as Director of Web Services for a large healthcare system to develop Web, Mobile/Tablet and Social Media Strategies for organization-wide web initiatives.</p>
                         <h6><a href="http://rocjohnson.com" target="_blank">RocJohnson.com</a></h6>
@@ -256,7 +256,7 @@ $projects = json_decode($data);
                         <i class="fa fa-music fa-2x pink-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="font-weight-bold mb-4">Entertainment</h5>
+                        <h5 class="font-weight-boldz mb-4">Entertainment</h5>
                         <p class="grey-textz mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
                             aperiam minima elit assumenda voluptate velit.</p>
                     </div>
@@ -269,7 +269,7 @@ $projects = json_decode($data);
                         <i class="fa fa-smile-o fa-2x blue-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="font-weight-bold mb-4">Communication</h5>
+                        <h5 class="font-weight-boldz mb-4">Communication</h5>
                         <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores
                             nam, aperiam minima elit assumenda voluptate velit.</p>
                     </div>
@@ -316,8 +316,68 @@ $projects = json_decode($data);
                     <h1 class="white-textz text-warningz white-text op50z wow fadeInUpz fadeIn" data-wow-delay="0.3s" data-wow-duration="4.0s">Portfolio of Work</h1>
                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumzzz.</p> -->
 
+                    <h2 class="white-text">Recent</h2>
 
 
+                    <!-- Card deck -->
+                    <div class="card-deck">
+
+                        <!-- Card -->
+                        <div class="card mb-4">
+
+                            <!--Card image-->
+                            <div class="view overlay">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!--Card content-->
+                            <div class="card-body">
+
+                                <!--Title-->
+                                <h4 class="card-title">Card title</h4>
+                                <!--Text-->
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+
+                            </div>
+
+                        </div>
+                        <!-- Card -->
+
+                        <!-- Card -->
+                        <div class="card mb-4">
+
+                            <!--Card image-->
+                            <div class="view overlay">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!--Card content-->
+                            <div class="card-body">
+
+                                <!--Title-->
+                                <h4 class="card-title">Card title</h4>
+                                <!--Text-->
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+
+                            </div>
+
+                        </div>
+                        <!-- Card -->
+
+                    </div>
+                    <!-- Card deck -->
+
+                    <h2 class="white-text">Featured</h2>
                     <!--Card-->
                     <div class="card my-5 wow fadeInUpz fadeIn z-depth-5z hoverable" data-wow-delay="0.4s" data-wow-duration="7.0s">
 
@@ -332,7 +392,7 @@ $projects = json_decode($data);
                         <!--Card content-->
                         <div class="card-body text-center mb-3">
                             <!--Title-->
-                            <h3 class="card-title mt-2 pb-4"><strong>Featured Project:</strong> Anthony Bourdain &mdash; No Reservations</h3>
+                            <h3 class="card-title mt-2 pb-4"><strong>Featured Past Project:</strong> Anthony Bourdain &mdash; No Reservations</h3>
                             <!--Text-->
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                                 content.
