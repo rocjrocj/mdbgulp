@@ -251,7 +251,7 @@ $projects = json_decode($data);
                 <!-- Grid row -->
 
                 <!-- Grid row -->
-                <div class="row mb-3">
+                <!--<div class="row mb-3">
                     <div class="col-md-1 col-2">
                         <i class="fa fa-music fa-2x pink-text"></i>
                     </div>
@@ -260,11 +260,11 @@ $projects = json_decode($data);
                         <p class="grey-textz mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
                             aperiam minima elit assumenda voluptate velit.</p>
                     </div>
-                </div>
+                </div>-->
                 <!-- Grid row -->
 
                 <!-- Grid row -->
-                <div class="row mb-lg-0 mb-5">
+                <!--<div class="row mb-lg-0 mb-5">
                     <div class="col-md-1 col-2">
                         <i class="fa fa-smile-o fa-2x blue-text"></i>
                     </div>
@@ -273,7 +273,7 @@ $projects = json_decode($data);
                         <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores
                             nam, aperiam minima elit assumenda voluptate velit.</p>
                     </div>
-                </div>
+                </div>-->
                 <!-- Grid row -->
 
             </div>
