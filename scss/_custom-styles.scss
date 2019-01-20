@@ -95,14 +95,10 @@ $muli-font-path: "../font/muli/" !default;
 }
 
 body {
-  /*font-family: "Muli", sans-serif;*/
   line-height: 28px;
 }
 
 .home-rj {
-  /*font-family: "Muli Black";*/
-  /*font-size: 96px;*/
-  /*font-weight: 900;*/
 }
 
 .vh-100 {
@@ -126,7 +122,6 @@ body {
 .op50 {
   opacity: 0.5;
 }
-
 
 .page-footer {
   background-color: #091933;
@@ -154,21 +149,14 @@ body {
     opacity: 0.05;
     z-index: 1;
   }
-  /*p {
-    width: 300px;
-  }*/
   .body {
     position: relative;
-    /*background-color: #fff;*/
     margin-top: 50px;
     padding: 24px;
     z-index: 99;
-    /*opacity: 0.8;*/
   }
 }
 
 .rgba-blue-light {
-  /*background-color: rgba(56,111,193,.8) !important;
-  background-color: rgba(31,64,116,.8) !important;*/
   background-color: rgba(19,44,82,.8) !important;
 }

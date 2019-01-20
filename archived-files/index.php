@@ -24,6 +24,7 @@
     $projects = json_decode($data);
     //print_r($projects); // Dump all data of the Array
 
+
     $recent = array();
     $featured = array();
     $all = array();
@@ -54,6 +55,7 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
+
 
     <style>
         /* Required for full background image */
@@ -87,8 +89,18 @@
             }
         }
     </style>
+
+
 </head>
+
 <body>
+
+    <?php
+    /*echo "recent - " . count($recent);
+    echo "featured - " . count($featured);
+    echo "all - " . count($all);*/
+    ?>
+
     <header>
         <!-- Full Page Intro -->
         <div class="view">
@@ -96,7 +108,7 @@
                 <source src="vid/HomepageVideo.mp4" type="video/mp4">
             </video>
             <!-- Mask & flexbox options-->
-            <div class="mask d-flex justify-content-center align-items-center rgba-blue-light">
+            <div class="mask rgba-gradientz d-flex justify-content-center align-items-center rgba-blue-light">
                 <!-- Content -->
                 <div class="container px-md-3 px-sm-0">
                     <!--Grid row-->
@@ -105,13 +117,13 @@
                         <div class="col-md-12 mb-4 white-text smooth-scroll">
                             <h1 class="white-text mb-0 pt-md-5 pt-5 wow fadeIn text-uppercase letterspace10 home-rj" data-wow-delay="0.3s" data-wow-duration="5.0s">RocJohnson.com</h1>
                             <hr class="hr-light my-4 w-100 wow fadeIn text-left" data-wow-delay="0.4s" data-wow-duration="4.0s">
-                            <h4 class="subtext-header mt-2 wow fadeIn line-height34" data-wow-delay="0.5s" data-wow-duration="3.0s">A Web professional with 20+ years' experience delivering strategic and innovative digital solutions</h4>
-                            <div class="d-flex font-small mb-4">
+                            <h4 class="subtext-header mt-2 mb-4z wow fadeIn line-height34" data-wow-delay="0.5s" data-wow-duration="3.0s">A Web professional with 20+ years' experience delivering strategic and innovative digital solutions</h4>
+                            <div class="d-flex justify-content-centerz font-small text-uppercasez pt-3z mb-4">
                                 <div class="pr-3">
-                                    <a href="mailto:roc@rocjohnson.com" class="white-text wow fadeIn" data-wow-delay="0.5s" data-wow-duration="3.0s"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;roc@rocjohnson.com</a>
+                                    <a href="mailto:roc@rocjohnson.com" class="white-text wow fadeIn line-height34z" data-wow-delay="0.5s" data-wow-duration="3.0s"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;roc@rocjohnson.com</a>
                                 </div>
                                 <div>
-                                    <a href="tel:9016287763" class="white-text wow fadeIn" data-wow-delay="0.5s" data-wow-duration="4.0s"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;901-628-7763</a>
+                                    <a href="tel:9016287763" class="white-text wow fadeIn line-height34z" data-wow-delay="0.5s" data-wow-duration="4.0s"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;901-628-7763</a>
                                 </div>
                             </div>
                             <a href="#about" class="btn btn-rounded btn-outline-white wow fadeIn" data-wow-delay="0.6s" data-wow-duration="2.0s">
@@ -139,10 +151,11 @@
     <section class="my-5 container" id="about">
 
         <!-- Section heading -->
-        <h2 class="h1-responsive mb-4 wow fadeIn" data-wow-delay="0.3s" data-wow-duration="4.0s">My Story</h2>
+        <h2 class="h1-responsive font-weight-boldz text-centerz mb-4 wow fadeIn" data-wow-delay="0.3s" data-wow-duration="4.0s">My Story</h2>
         <!-- Section description -->
         <p class="mb-4 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="5.0s">I am a web and digital marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
         <p class="mb-4 wow fadeIn" data-wow-delay="0.5s" data-wow-duration="6.0s">I have been designing and developing websites for a long time. I have been delivering "pixel-perfect" code for agencies and creatives since before "pixel-perfect" was a phrase. I wrote my first JavaScript "rollover" with about 1000 lines of js in 1996. I have been obsessed with animation and interactivity on the web ever since I saw the first version of Flash (originally called Future Splash) in 1997. Along the way I taught myself, along with the help of a few great mentors, server-side scripting, backend development and database design and development.</p>
+
         <!-- Grid row -->
         <div class="row">
             <!-- Grid column -->
@@ -180,9 +193,12 @@
                 </div>
             </div>
             <!-- Grid column -->
+
         </div>
         <!-- Grid row -->
+
         <hr class="my-5 wow fadeIn" data-wow-delay="0.3s" data-wow-duration="4.0s">
+
         <!-- Grid row -->
         <div class="row mt-5">
             <!-- Grid column -->
@@ -193,26 +209,30 @@
                         <i class="fa fa-history fa-2x indigo-text"></i>
                     </div>
                     <div class="col-md-11 col-10">
-                        <h5 class="mb-4">Previous Experience &mdash;</h5>
+                        <h5 class="font-weight-boldz mb-4">Previous Experience &mdash;</h5>
                         <h6>Director, Web Services, <a href="https://methodisthealth.org" target="_blank">Methodist Le Bonheur Healthcare</a></h6>
-                        <p>Served as Director of Web Services for a large healthcare system to develop Web, Mobile/Tablet and Social Media Strategies for organization-wide web initiatives.</p>
+                        <p class="grey-textz">Served as Director of Web Services for a large healthcare system to develop Web, Mobile/Tablet and Social Media Strategies for organization-wide web initiatives.</p>
                         <h6><a href="http://rocjohnson.com" target="_blank">RocJohnson.com</a></h6>
-                        <p class="mb-4">Served as Principal with expertise in web strategy, mobile/tablet strategy, social media strategy, website design and development, mobile app design and development, mobile web design and development, responsive web design, mobile first, content strategy, UI/UX, SEO, SEM and team building.</p>
+                        <p class="grey-textz mb-4">Served as Principal with expertise in web strategy, mobile/tablet strategy, social media strategy, website design and development, mobile app design and development, mobile web design and development, responsive web design, mobile first, content strategy, UI/UX, SEO, SEM and team building.</p>
                     </div>
                 </div>
                 <!-- Grid row -->
             </div>
             <!-- Grid column -->
+
             <!-- Grid column -->
             <div class="col-lg-5 wow fadeIn" data-wow-delay="0.5s" data-wow-duration="6.0s">
                 <!--Image-->
                 <img src="img/logos.jpg" alt="Sample project image" class="img-fluid roundedz z-depth-1z">
             </div>
             <!-- Grid column -->
+
         </div>
         <!-- Grid row -->
+
     </section>
     <!-- Projects section v.3 -->
+
     <!--Main Layout-->
     <main class="warning-color-dark">
         <div class="container">
@@ -295,7 +315,12 @@
                             $i++;
                             ?>
                     <!-- Card deck -->
+                    <!--<div class="card-deck">-->
+
+                            <?php /*endif; */?>
+
                         <div class="card mb-4 wow fadeIn z-depth-5 hoverable"<?php if ($i === 1): ?> data-wow-delay="0.2s" data-wow-duration="3.0s"><?php elseif ($i === 2): ?> data-wow-delay="0.3s" data-wow-duration="4.0s"><?php elseif ($i === 3): ?> data-wow-delay="0.4s" data-wow-duration="5.0s"><?php endif; ?>
+
                                 <!--Card image-->
                                 <div class="view overlay zoom">
                                     <img class="card-img-top" src="http://dev-rjmdb.pantheonsite.io/<?php echo $project->field_project_image_large; ?>" alt="Card image cap">
@@ -303,8 +328,10 @@
                                         <div class="mask rgba-white-slight"></div>
                                     </a>
                                 </div>
+
                                 <!--Card content-->
                                 <div class="card-body">
+
                                     <!--Title-->
                                     <h4 class="card-title"><?php echo $project->field_project_name; ?></h4>
                                     <!--Text-->
@@ -313,7 +340,9 @@
                                     <p class="card-text text"><strong>Produced with:</strong> <?php echo $project->field_produced_with; ?></p>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <div class="text-centerz pt-3z"><a href="<?php echo $project->field_link_to_project; ?>" class="btn btn-primary btn-md" target="_blank">Visit Site <i class="fa fa-arrow-right ml-1"></i></a></div>
+
                                 </div>
+
                             </div>
                             <!-- Card -->
                             <?php if ($i === 3) :
@@ -324,9 +353,27 @@
                         <!-- Card deck -->
                         <div class="card-deck">
                             <?php endif; ?>
+
                         <?php endforeach; ?>
+
+
+
+
+
+
+
     </main>
     <!--Main Layout-->
+
+
+
+
+
+
+
+
+
+
                 <div class="container wow fadeInUpz fadeIn" data-wow-delay="0.2s" data-wow-duration="2.0s">
         <!--Grid row-->
         <div class="row py-5">
@@ -336,6 +383,7 @@
                     <h1>Digital CV</h1>
                     <a href="Roc-Johnson-Jan-2019.pdf" class="btn btn-primary" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp;Download PDF of CV</a>
                 </div>
+
                 <h2>Roc Johnson</h2>
                 <p>207 Plyersmill Road<br/>
                     Cary, NC 27519<br/>
@@ -343,6 +391,8 @@
                     <a href="mailto:roc@rocjohnson.com" target="_blank">roc@rocjohnson.com</a><br/>
                     <a href="http://www.rocjohnson.com" target="_blank">www.rocjohnson.com</a>
                 </p>
+
+
                 <h6 class="font-weight-bold pt-3">QUALIFICATIONS:</h6>
                 <p>A web and marketing professional with 20+ years of experience delivering strategic and innovative digital marketing solutions with 10 years of experience building and leading engineering and multi-disciplinary teams. Expert in digital design, development and strategy for mobile, tablet and desktop as well as leading local and remote teams to success with large-scale web and product implementations.</p>
 
@@ -355,15 +405,17 @@
                     <li>Expert in Front-end development using HTML, CSS and JavaScript as well as other frameworks including .NET, PHP, Node, Angular, React and Vue </li>
                     <li>Experience with AWS and Microsoft Azure</li>
                 </ul>
+
                 <h6 class="font-weight-bold pt-3">PROGRAMMING/SCRIPTING/FRAMEWORKS/LIBRARIES:</h6>
                 <p>.NET, PHP, C#, Node, Angular, React, HTML5, CSS3, SCSS, JavaScript, jQuery, Socket.io</p>
-                <h6 class="font-weight-bold">CMS/DATA:</h6>
+                <h6>CMS/DATA:</h6>
                 <p>Drupal 7, 8, WordPress, Sitecore, dotCMS, Sharepoint, Vignette/OpenText, MS SQL, MySQL, custom built CMS in .NET and PHP</p>
-                <h6 class="font-weight-bold">TOOLS/OTHER:</h6>
+                <h6>TOOLS/OTHER:</h6>
                 <p>Agile, Scrum, Kanban, Composer, NPM, Gulp, Git, Jira, Confluence, Responsive Web, Mobile First, Content Strategy</p>
                 <h6 class="font-weight-bold pt-3">PROFESSIONAL EXPERIENCE:</h6>
                 <p class="font-weight-bold pb-0 mb-0">Mar 2017-Present, Manager, Web Engineering, Healthgrades.com</p>
                 <p>Lead a team of Web Engineers involved in both product development for the EPE and HGMD squads as well as client delivery of Enterprise and Campaign solutions leveraging Healthgrades’ suite of products to deliver highly unique and targeted digital experiences.</p>
+
                 <ul>
                     <li>EPE and client delivery tech stack include Drupal 7 & 8 for CMS, PHP, MySQL, jQuery and Vue on Pantheon</li>
                     <li>HGMD tech stack includes .NET, Angular, React and Bootstrap on AWS</li>
@@ -530,11 +582,32 @@
                 <p>University of Memphis, Memphis, TN, 1989-1994<br>Bachelor of Arts, major in Music Business</p>
 
                 <p class="font-small"><em>References Available Upon Request. Please visit www.RocJohnson.com to view portfolio of work.</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
             <!--Grid column-->
         </div>
         <!--Grid row-->
     </div>
+
+
+
     <footer class="page-footer text-center font-small mt-4 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="d-flex justify-content-center font-small text-uppercasez pt-3">
             <div class="pr-3">
@@ -544,7 +617,9 @@
                 <a href="tel:9016287763"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;901-628-7763</a>
             </div>
         </div>
+
         <hr class="my-1">
+
         <!-- Social icons -->
         <div class="pb-4">
             <a href="https://www.linkedin.com/in/roc-johnson-3609924/" target="_blank"><i class="fa fa-linkedin-square mr-3"></i></a>
@@ -560,11 +635,38 @@
                 <i class="fa fa-youtube mr-3"></i>
             </a>
 
+            <!--<a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+                <i class="fa fa-google-plus mr-3"></i>
+            </a>
+
+            <a href="https://dribbble.com/mdbootstrap" target="_blank">
+                <i class="fa fa-dribbble mr-3"></i>
+            </a>
+
+            <a href="https://pinterest.com/mdbootstrap" target="_blank">
+                <i class="fa fa-pinterest mr-3"></i>
+            </a>-->
+
             <a href="https://github.com/rocjrocj" target="_blank">
                 <i class="fa fa-github mr-3"></i>
             </a>
+
+           <!-- <a href="http://codepen.io/mdbootstrap/" target="_blank">
+                <i class="fa fa-codepen mr-3"></i>
+            </a>-->
         </div>
+        <!-- Social icons -->
+
+        <!--Copyright-->
+       <!-- <div class="footer-copyright py-3">
+            © 2018 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank"> RocJohnson.com </a>
+        </div>-->
+        <!--/.Copyright-->
+
     </footer>
+
+
 
     <!-- SCRIPTS -->
     <!-- JQuery -->

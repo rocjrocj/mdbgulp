@@ -22,11 +22,11 @@ phpinfo();
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="../dist/css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../dist/css/style.css" rel="stylesheet">
 
 
     <style>
@@ -87,7 +87,7 @@ phpinfo();
                 <!--<source src="vid/483291049-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/845840292-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/598602128-640_adpp_is.mp4" type="video/mp4">-->
-                <source src="vid/541903908-640_adpp_is.mp4" type="video/mp4">
+                <source src="../dist/vid/541903908-640_adpp_is.mp4" type="video/mp4">
                 <!--<source src="vid/473290089-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/610205932-640_adpp_is.mp4" type="video/mp4">-->
                 <!--<source src="vid/472714963-640_adpp_is.mp4" type="video/mp4">-->
@@ -217,13 +217,13 @@ phpinfo();
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../dist/js/jquery-3.3.1.min.js"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="../dist/js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="../dist/js/mdb.min.js"></script>
 
     <script>
         new WOW().init();

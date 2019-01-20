@@ -50,11 +50,11 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="../dist/css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../dist/css/style.css" rel="stylesheet">
 
     <style>
         /* Required for full background image */
@@ -102,7 +102,7 @@
         <!-- Full Page Intro -->
         <div class="view">
             <video class="video-intro" poster="" playsinline autoplay muted loop>
-                <source src="vid/HomepageVideo.mp4" type="video/mp4">
+                <source src="../dist/vid/HomepageVideo.mp4" type="video/mp4">
             </video>
             <!-- Mask & flexbox options-->
             <div class="mask rgba-gradientz d-flex justify-content-center align-items-center rgba-blue-light">
@@ -155,7 +155,7 @@
             <!-- Grid column -->
             <div class="col-lg-5 mb-lg-0 my-5 wow fadeIn" data-wow-delay="0.3s" data-wow-duration="4.0s"">
                 <!--Image-->
-                <img src="img/logo-v2-blue.png" alt="Sample project image" class="img-fluid roundedz z-depth-1z p-5">
+                <img src="../dist/img/logo-v2-blue.png" alt="Sample project image" class="img-fluid roundedz z-depth-1z p-5">
             </div>
             <!-- Grid column -->
 
@@ -231,7 +231,7 @@
             <!-- Grid column -->
             <div class="col-lg-5 wow fadeIn" data-wow-delay="0.5s" data-wow-duration="6.0s">
                 <!--Image-->
-                <img src="img/logos.jpg" alt="Sample project image" class="img-fluid roundedz z-depth-1z">
+                <img src="../dist/img/logos.jpg" alt="Sample project image" class="img-fluid roundedz z-depth-1z">
             </div>
             <!-- Grid column -->
 
@@ -293,7 +293,7 @@
                     <div class="card my-2 wow fadeInUpz fadeIn z-depth-5z hoverable" data-wow-delay="0.4s" data-wow-duration="7.0s">
                         <!--Card image-->
                         <div class="view overlay slideInUpz zoom">
-                            <img src="img/bourdain-1.jpg" style="width: 100%;" class="img-fluid" alt="">
+                            <img src="../dist/img/bourdain-1.jpg" style="width: 100%;" class="img-fluid" alt="">
                             <a href="#">
                                 <div class="maskz rgba-white-slightz"></div>
                             </a>
@@ -397,7 +397,7 @@
             <div class="col-md-12 text-centerz" id="cv">
                 <div class="d-flex justify-content-between">
                     <h1>Digital CV</h1>
-                    <a href="Roc-Johnson-Sep-2018.pdf" class="btn btn-primary" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp;Download PDF of CV</a>
+                    <a href="../dist/Roc-Johnson-Sep-2018.pdf" class="btn btn-primary" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp;Download PDF of CV</a>
                 </div>
 
                 <h2>Roc Johnson</h2>
@@ -688,13 +688,13 @@
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../dist/js/jquery-3.3.1.min.js"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="../dist/js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="../dist/js/mdb.min.js"></script>
 
     <script>
         new WOW().init();

@@ -58,9 +58,22 @@ body {
   /*font-family: "Muli", sans-serif;*/ }
 
 .home-rj {
+  /*@include media-breakpoint-up(sm) {
+    font-size: 32px;
+  }*/
+  /*font-size: 28px;*/
+
   /*font-family: "Muli Black";*/
   /*font-size: 96px;*/
-  /*font-weight: 900;*/ }
+  /*font-weight: 900;*/
+}
+
+
+@media (max-width: 575px) {
+  .home-rj {
+    font-size: 28px;
+  }
+}
 
 .vh-100 {
   height: 100vh; }
